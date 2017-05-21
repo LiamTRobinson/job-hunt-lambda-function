@@ -1,0 +1,110 @@
+{
+  "intents": [
+    {
+      "slots": [
+        {
+          "name": "JobType",
+          "type": "AMAZON.LITERAL"
+        }
+      ],
+      "intent": "FindJobsOfType"
+    },
+    {
+      "intent": "AMAZON.NextIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    },
+    {
+      "intent": "SaveTheCurrentIndexedJob"
+    },
+    {
+      "intent": "EmailTheJobListAsItCurrentlyIs"
+    },
+    {
+      "intent": "GetMeReallyHypedForJobHunting"
+    },
+    {
+      "intent": "ReadASampleFromTheListOfGeneralInterviewQuestions"
+    }
+  ]
+}
+
+
+
+
+FindJobsOfType recent {barista|JobType} jobs
+FindJobsOfType recent {pilot|JobType} jobs
+FindJobsOfType recent {sous chef|JobType} jobs
+FindJobsOfType recent {back end developer|JobType} jobs
+FindJobsOfType recent {general manager|JobType} jobs
+FindJobsOfType recent {delivery driver|JobType} jobs
+FindJobsOfType recent {assistant|JobType} jobs
+FindJobsOfType recent {office assistant|JobType} jobs
+FindJobsOfType recent {javascript engineer|JobType} jobs
+FindJobsOfType recent {pilot|JobType} jobs
+FindJobsOfType recent {office assistant|JobType} jobs
+FindJobsOfType recent {stock broker|JobType} jobs
+FindJobsOfType recent {golf pro|JobType} jobs
+FindJobsOfType recent {tennis pro|JobType} jobs
+FindJobsOfType recent {banker|JobType} jobs
+FindJobsOfType recent {teller|JobType} jobs
+FindJobsOfType recent {copywriter|JobType} jobs
+FindJobsOfType recent {yeoman|JobType} jobs
+FindJobsOfType recent {writer|JobType} jobs
+FindJobsOfType recent {florist|JobType} jobs
+FindJobsOfType recent {cook|JobType} jobs
+FindJobsOfType recent {bus boy|JobType} jobs
+FindJobsOfType recent {head chef|JobType} jobs
+FindJobsOfType recent {software engineer|JobType} jobs
+FindJobsOfType recent {mortuary|JobType} jobs
+FindJobsOfType recent {developer|JobType} jobs
+FindJobsOfType recent {software developer|JobType} jobs
+FindJobsOfType recent {web developer|JobType} jobs
+FindJobsOfType recent {junior developer|JobType} jobs
+SaveTheCurrentIndexedJob store job
+SaveTheCurrentIndexedJob bookmark job
+SaveTheCurrentIndexedJob add job
+SaveTheCurrentIndexedJob keep job
+SaveTheCurrentIndexedJob save job
+SaveTheCurrentIndexedJob save
+SaveTheCurrentIndexedJob store
+SaveTheCurrentIndexedJob bookmark
+SaveTheCurrentIndexedJob add
+SaveTheCurrentIndexedJob keep
+SaveTheCurrentIndexedJob keep it
+SaveTheCurrentIndexedJob save it
+SaveTheCurrentIndexedJob store it
+SaveTheCurrentIndexedJob bookmark it
+EmailTheJobListAsItCurrentlyIs email my jobs
+EmailTheJobListAsItCurrentlyIs send me the jobs
+EmailTheJobListAsItCurrentlyIs send jobs
+EmailTheJobListAsItCurrentlyIs email jobs
+EmailTheJobListAsItCurrentlyIs email me the job list
+EmailTheJobListAsItCurrentlyIs email job list
+EmailTheJobListAsItCurrentlyIs send me the job list
+EmailTheJobListAsItCurrentlyIs send my jobs
+EmailTheJobListAsItCurrentlyIs send list
+EmailTheJobListAsItCurrentlyIs email list
+EmailTheJobListAsItCurrentlyIs email saved jobs
+EmailTheJobListAsItCurrentlyIs send me the saved jobs
+EmailTheJobListAsItCurrentlyIs send saved jobs
+EmailTheJobListAsItCurrentlyIs email me the saved jobs
+GetMeReallyHypedForJobHunting get me pumped
+GetMeReallyHypedForJobHunting get me pumped up
+GetMeReallyHypedForJobHunting hype me up
+GetMeReallyHypedForJobHunting get me hyped
+GetMeReallyHypedForJobHunting encourage me
+ReadASampleFromTheListOfGeneralInterviewQuestions ask me an interview question
+ReadASampleFromTheListOfGeneralInterviewQuestions ask me a question
+ReadASampleFromTheListOfGeneralInterviewQuestions interview me
+ReadASampleFromTheListOfGeneralInterviewQuestions ask question
+ReadASampleFromTheListOfGeneralInterviewQuestions prep me
+ReadASampleFromTheListOfGeneralInterviewQuestions ask sample interview question
+ReadASampleFromTheListOfGeneralInterviewQuestions interview
+ReadASampleFromTheListOfGeneralInterviewQuestions interview prep
+ReadASampleFromTheListOfGeneralInterviewQuestions ask prep question
+ReadASampleFromTheListOfGeneralInterviewQuestions interview question
